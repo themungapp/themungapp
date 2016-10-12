@@ -2,6 +2,11 @@
 // compatible API routes.
 
 var express = require('express');
+
+var app = express();
+app.listen(process.env.PORT);
+
+
 var ParseServer = require('parse-server').ParseServer;
 var path = require('path');
 
